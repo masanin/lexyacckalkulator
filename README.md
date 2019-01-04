@@ -1,7 +1,7 @@
 # lexyacckalkulator
-Jednostavni kalkulator napravljen pomoću lex-a i yacc-a.
+Jednostavni kalkulator napravljen pomoću lex-a i yacc-a. Kalkulator funkcioniše tako što korisnik zadaje izraze na standardnom ulazu, koje će leksički analizator obraditi i pretvoriti u tokene koje prosleđuje sintaksnom analizatoru. Sintaksni analizator prepoznaje zadate šablone visokog nivoa, pomoću kojih prepoznaje izraze koje izračunava i štampa na standardni izlaz. 
 
-Da bi dobili leksički i sintaksni analizator potrebno je izvršiti sledeće komande:
+Leksički i sintaksni analizator dobijamo izvršavanjem sledećih komandi:
 <pre><code>$ lex kalkulator.l
 $ yacc -d kalkulator.y
 </code></pre>
